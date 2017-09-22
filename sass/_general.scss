@@ -1,0 +1,11 @@
+@charset "UTF-8";
+html {margin: 0; padding: 0; background-color: $main-color;}
+body {width: 100%; display: block; margin: 0; padding: 0; overflow-x: hidden; background-color: $white; padding-left: 80px;}
+.break {width: 100%; height: 30px;}
+.clear {clear: both;}
+.section, .main {*zoom: 1;}
+.main:before, .main:after, .dark-section:before, .dark-section:after, .menu-section:before, .menu-section:after {display: table; content: ""; line-height: 0; }
+.main:after, .dark-section:after, .menu-section:after { clear: both }
+::selection {background: #70b3eb;}
+::-moz-selection {background: #70b3eb;}
+::-webkit-selection {background: #70b3eb;}

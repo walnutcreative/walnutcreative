@@ -1,0 +1,13 @@
+.home-slideshow {width: 100%; height: 324px; overflow: hidden!important;}
+.slide-container {width: 100%; height: 324px; overflow: hidden!important;}
+.slide {width: 940px; height: 280px; display: block; padding-top: 180px; margin: auto; text-decoration: none;}
+.slide-title {font-family: $font-title; font-size:88px; line-height: 90px; text-align: center; color: #252525; padding-top: 50px;}
+.slide-description {width: 100%; height:50px; background: url(../img/backgrounds/slide-description-bg.png) top left repeat; padding: 40px 0; position: absolute; bottom: 0; font-family: $font-title; font-size: 25px; color: $white; text-align: center;}
+.s-bursting {background: url(../img/banners/home/bursting.jpg) top center repeat-x;}
+.s-bursting-2 {background: url(../img/banners/home/bursting-2.jpg) top center repeat-x;}
+.home-slideshow .next {width: 46px; height: 46px; background: url(../img/icons/next.png) center no-repeat; position: absolute; top: 50%; margin-top: -25px; z-index: 999; cursor: pointer;  right: 2%;}
+.home-slideshow .prev {width: 46px; height: 46px; background: url(../img/icons/prev.png) center no-repeat; position: absolute; top: 50%; margin-top: -25px; z-index: 999; cursor: pointer; left: 2%;}
+.home-slideshow .pager {margin: auto; text-align: center; margin-top: -45px; position: relative; z-index: 1000;}
+.home-slideshow .pager span {color: $white; font-size: 35px; margin: 0 2px;}
+.home-slideshow .pager .cycle-pager-active {color: #13a6a4;}
+.home-slideshow .pager > * {cursor: pointer;}

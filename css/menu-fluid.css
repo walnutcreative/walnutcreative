@@ -1,0 +1,67 @@
+/*
+Error: Undefined variable: "$font-title".
+        on line 3 of sass/menu-fluid.scss
+
+1: a.meanmenu-reveal {display: none}
+2: .mean-container .mean-bar {width: 100%; position: absolute; background-color: #0f2f6c; padding: 4px 0; min-height: 45px; z-index: 999999; clear: both;}
+3: .mean-container a.meanmenu-reveal {width: 100%; height: 45px; position: absolute; top: 0; right: 0; cursor: pointer; color: #fff; text-decoration: none; font-size: 18px; line-height: 55px; display: block; font-family: $font-title; clear: both; text-align: left!important; padding: 0 20px; background: url(../img/headers/hamburger.svg) right center no-repeat; background-size: 24px; background-position: 98% 65%; -webkit-font-smoothing: antialiased;}
+4: .mean-container .mean-nav {float: left; width: 100%; background: #0f2f6c; margin-top: 45px; font-family: $font-title;}
+5: .mean-container .mean-nav ul {padding: 0; margin: 0; width: 100%; list-style-type: none;}
+6: .mean-container .mean-nav ul li {position: relative; float: left; width: 100%;}
+7: .mean-container .mean-nav ul li a {display: block; float: left; width: 96%; padding: 1em 2%; margin: 0; text-align: center; color: #fff; border-bottom: 1px solid #0b255b; text-decoration: none;}
+8: .mean-container .mean-nav ul li li a {width: 90%; padding: 1em 5%; border-bottom: 1px solid #0b255b; border-bottom: 1px solid rgba(255, 255, 255, 0.25); opacity: 0.75; filter: alpha(opacity=75); text-shadow: none !important; visibility: visible;}
+
+Backtrace:
+sass/menu-fluid.scss:3
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/script/tree/variable.rb:49:in `_perform'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/script/tree/node.rb:58:in `perform'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:397:in `visit_prop'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `with_base'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `block (2 levels) in visit_rule'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `map'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `block in visit_rule'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:431:in `visit_rule'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `with_base'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `map'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:169:in `block in visit_children'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:168:in `visit_children'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:188:in `visit_root'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:159:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/engine.rb:381:in `_render_with_sourcemap'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/engine.rb:298:in `render_with_sourcemap'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `each'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:331:in `block in watch'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:252:in `call'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/vendor/listen/lib/listen/adapters/polling.rb:48:in `call'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$font-title\".\A         on line 3 of sass/menu-fluid.scss\A \A 1: a.meanmenu-reveal {display: none}\A 2: .mean-container .mean-bar {width: 100%; position: absolute; background-color: #0f2f6c; padding: 4px 0; min-height: 45px; z-index: 999999; clear: both;}\A 3: .mean-container a.meanmenu-reveal {width: 100%; height: 45px; position: absolute; top: 0; right: 0; cursor: pointer; color: #fff; text-decoration: none; font-size: 18px; line-height: 55px; display: block; font-family: $font-title; clear: both; text-align: left!important; padding: 0 20px; background: url(../img/headers/hamburger.svg) right center no-repeat; background-size: 24px; background-position: 98% 65%; -webkit-font-smoothing: antialiased;}\A 4: .mean-container .mean-nav {float: left; width: 100%; background: #0f2f6c; margin-top: 45px; font-family: $font-title;}\A 5: .mean-container .mean-nav ul {padding: 0; margin: 0; width: 100%; list-style-type: none;}\A 6: .mean-container .mean-nav ul li {position: relative; float: left; width: 100%;}\A 7: .mean-container .mean-nav ul li a {display: block; float: left; width: 96%; padding: 1em 2%; margin: 0; text-align: center; color: #fff; border-bottom: 1px solid #0b255b; text-decoration: none;}\A 8: .mean-container .mean-nav ul li li a {width: 90%; padding: 1em 5%; border-bottom: 1px solid #0b255b; border-bottom: 1px solid rgba(255, 255, 255, 0.25); opacity: 0.75; filter: alpha(opacity=75); text-shadow: none !important; visibility: visible;}"; }

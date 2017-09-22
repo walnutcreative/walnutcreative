@@ -1,0 +1,18 @@
+a.meanmenu-reveal {display: none}
+.mean-container .mean-bar {width: 100%; position: absolute; background-color: #0f2f6c; padding: 4px 0; min-height: 45px; z-index: 999999; clear: both;}
+.mean-container a.meanmenu-reveal {width: 100%; height: 45px; position: absolute; top: 0; right: 0; cursor: pointer; color: #fff; text-decoration: none; font-size: 18px; line-height: 55px; display: block; font-family: $font-title; clear: both; text-align: left!important; padding: 0 20px; background: url(../img/headers/hamburger.svg) right center no-repeat; background-size: 24px; background-position: 98% 65%; -webkit-font-smoothing: antialiased;}
+.mean-container .mean-nav {float: left; width: 100%; background: #0f2f6c; margin-top: 45px; font-family: $font-title;}
+.mean-container .mean-nav ul {padding: 0; margin: 0; width: 100%; list-style-type: none;}
+.mean-container .mean-nav ul li {position: relative; float: left; width: 100%;}
+.mean-container .mean-nav ul li a {display: block; float: left; width: 96%; padding: 1em 2%; margin: 0; text-align: center; color: #fff; border-bottom: 1px solid #0b255b; text-decoration: none;}
+.mean-container .mean-nav ul li li a {width: 90%; padding: 1em 5%; border-bottom: 1px solid #0b255b; border-bottom: 1px solid rgba(255, 255, 255, 0.25); opacity: 0.75; filter: alpha(opacity=75); text-shadow: none !important; visibility: visible;}
+.mean-container .mean-nav ul li.mean-last a {margin-bottom: 10px;}
+.mean-container .mean-nav ul li li li a {width: 70%; padding: 1em 15%;}
+.mean-container .mean-nav ul li li li li a {width: 60%; padding: 1em 20%;}
+.mean-container .mean-nav ul li li li li li a {width: 50%; padding: 1em 25%;}
+.mean-container .mean-nav ul li a:hover {background: #1d75a1; background: rgba(255, 255, 255, 0.1);}
+.mean-container .mean-nav ul li a.mean-expand {width: 26px; height: 26px; border: none !important; padding: 12px !important; text-align: center; position: absolute; right: 0; top: 0; z-index: 2; font-weight: 700; line-height: 28px;}
+.mean-container .mean-nav ul li a.mean-expand:hover {background: none}
+.mean-container .mean-push {float: left; width: 100%; padding: 0; margin: 0; clear: both;}
+.mean-nav .wrapper {width: 100%; padding: 0; margin: 0;}
+.mean-nav .mobile-hide {display: none;}

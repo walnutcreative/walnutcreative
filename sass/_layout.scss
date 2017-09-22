@@ -1,0 +1,19 @@
+.main, .full, .half, .third, .quarter, .fifth, .three-quarters, .one-quarter, .one-third, .two-thirds, .eighth, .sixth, .left, .right, .form-input, .form-select, .form-textarea, .cookiePolicy, body, .mean-container a.meanmenu-reveal, .diamond, .side-menu ul li a, .service-content, .service-image {-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+.main {width: 100%; padding: 0 20px; margin: auto;}
+.full {width:100%; padding: 0 10px;}
+.half {width: 50%; padding: 0 10px; float: left; margin-bottom: 20px; position: relative;}
+.third {width: 33.3%; padding: 0 10px; float: left; margin-bottom: 20px;}
+.quarter {width: 25%; padding: 0 10px; float: left; margin-bottom: 20px;}
+.fifth {width: 20%; padding: 0 10px; float: left; margin-bottom: 20px;}
+.sixth {width: 16.6666667%; padding: 0 10px; float: left;}
+.eighth {width: 12.5%; padding: 0 10px; float: left; margin-bottom: 20px;}
+.three-quarters {width: 75%; padding: 0 10px; float: left; margin-bottom: 20px;}
+.one-quarter {width: 25%; padding: 0 10px; float: left; margin-bottom: 20px;}
+.one-third {width: 33.3%; padding: 0 10px; float: left; margin-bottom: 20px;}
+.two-thirds {width: 66.6%; padding: 0 10px; float: left; margin-bottom: 20px;}
+.single-row .half, .single-row .third, .single-row .quarter, .single-row .fifth, .single-row .sixth, .single-row .eighth {margin-bottom: 0;}
+.service-content {width: 60%; float: left; padding: 0 10px;}
+.service-image {
+	width: 40%; float: right; padding: 0 10px;
+	img {width: 90%; display: block; margin: auto;}
+}

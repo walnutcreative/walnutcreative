@@ -1,0 +1,4 @@
+ul.sitemap li {font-family: $font-body; color: $font-color; font-size: 20px; line-height: 40px; font-weight: 300; text-decoration: none; margin-top: 0; margin-bottom: 10px; list-style: none;}
+ul.sitemap li a {color: $font-color; text-decoration: none;}
+ul.sitemap li a:hover {color: $main-color;}
+ul.sitemap > li > ul > li {font-style: italic;}

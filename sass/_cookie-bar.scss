@@ -1,0 +1,9 @@
+.cookieMain {width: 100%; height: auto; background-color: #333; position: relative; z-index: 9999;}
+.cookiePolicy {width: 100%; position: fixed; bottom: 0; padding: 10px 20px; margin: 0 auto; background-color: #333; opacity: 0.75; 
+    font-family: 'Arial', sans-serif; color: #ebe7dd; font-weight: 300; text-align: center; font-size: 10px; line-height: 20px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+.cookiePolicy a {color: $white; transition: color 0.5s ease;}
+.cookiePolicy a:hover {color: #0d242d}
+.cookie-form {display: inline; margin: 0;}
+.cookie-form input[type=submit] {font-size: 10px; font-family: sans-serif;}
+.cookie-button {font-weight: bold; background-color: $black; color: $white; border: 0; margin-left: 5px; cursor: pointer; transition: background-color 0.5s ease;}
+.cookie-button:hover {background-color: #737373;}

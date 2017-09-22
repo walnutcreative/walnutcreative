@@ -1,0 +1,6 @@
+nav #desktop-menu > ul > li > ul {font-family: $font-title; height: auto; background-color: #313131; display: block; left: -999em; position: absolute; list-style: none; padding: 0; z-index: 999; font-size: 16px; line-height: 16px; text-align: left; color: #fff;}
+nav #desktop-menu li:hover ul, nav #desktop-menu li.sfhover ul {left: auto;}
+nav #desktop-menu > ul > li > ul > li {float: left; clear: both;}
+nav #desktop-menu > ul > li > ul > li > a {width: 200px; float: left; margin: 0px; display: block; padding: 20px; color: #fff; clear: both;}
+nav #desktop-menu > ul > li > ul > li > a:hover {background-color: #252525;}
+nav #desktop-menu ul li ul li:hover {color: #FFF; z-index: 30001; background-color: #252525; background-image: none;}

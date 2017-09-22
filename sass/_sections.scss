@@ -1,0 +1,66 @@
+.blue-section {width: 100%; background-color: $main-color;
+	h2 {color: $white;}
+	p {color: $white;}
+}
+.white-section {width: 100%; background-color: $white;}
+.grey-section {width: 100%; background-color: #d9d8d8;}
+#google-map {width: 100%; height: 400px;}
+
+.hero-section {
+	height: 650px; display: table; width: 100%; background: url(../img/backgrounds/homepage/hero.jpg) center no-repeat;
+	.main {display: table-cell; vertical-align: middle;}
+	.content {padding-left: 150px;}
+	h2 {text-transform: uppercase; color: #1595cc; margin-bottom: 0px;}
+	h1 {text-transform: uppercase; color: #fff; margin-bottom: 0px; font-size: 40px;}
+	p {color: #fff;}
+}
+
+
+.tis-kitchen {background: url(../img/backgrounds/homepage/kitchen.jpg) center no-repeat; background-size: cover;}
+.blue-cad {background: url(../img/backgrounds/homepage/blue-cad.jpg) center;}
+
+#selection {
+	.padded-content {
+		width: 90%; padding: 30px; box-sizing: border-box; padding-bottom: 150px; position: relative; text-align: center;
+		h3 {text-transform: uppercase;}
+		p {color: $main-color; font-size: 14px;}
+	}
+	.sel-counters {background: url(../img/services/selection/counters.png) bottom no-repeat;}
+	.sel-ventilation {background: url(../img/services/selection/ventilation.png) bottom no-repeat;}
+	.sel-fabrication {background: url(../img/services/selection/fabrication.png) bottom no-repeat;}
+}
+
+.case-study-s {background: url(../img/backgrounds/case-study-s.jpg) center;
+	.padded-content {
+		width: 55%; text-align: center;
+		p {width: 80%; margin: 0 auto 20px auto; display: block;}
+	}
+}
+
+
+#team {
+	.padded-content {width: 90%;}
+	.content {padding: 20px 30px; background: #fff; box-sizing: border-box; border-bottom: 5px solid #1595cc;}
+	h3 {font-size: 20px; line-height: 24px; color: $main-color; margin-bottom: 0; text-transform: uppercase;}
+	h4 {color: #1595cc; font-size: 14px; line-height: 15px;}
+	p {color: #848484; line-height: 20px; font-size: 14px; margin-bottom: 0;}
+	a {color: #848484;}
+}
+
+#cs-selction {
+	.padded-content {width: 95%; -webkit-box-shadow: 0px 0px 30px -2px rgba(145,145,145,1); -moz-box-shadow: 0px 0px 30px -2px rgba(145,145,145,1); box-shadow: 0px 0px 30px -2px rgba(145,145,145,1); padding-top: 75%; background-size: 100%!important;}
+	.content {width: 100%; background: $white; padding: 30px; box-sizing: border-box;}
+	h3 {font-size: 22px; line-height: 28px; margin-bottom: 0; text-transform: uppercase;}
+	h4 {color: #1595cc; font-size: 14px; line-height: 15px;}
+	p {font-size: 13px;}
+	.button {width: 100%; font-size: 12px;}
+
+}
+
+.pizza-flue-bg {background: url(../img/backgrounds/case-studies/pizza-flue.jpg) top right no-repeat; background-size: cover;}
+.the-red-lion-bg {background: url(../img/backgrounds/case-studies/the-red-lion.jpg) top right no-repeat; background-size: cover;}
+.travellers-friend-bg {background: url(../img/backgrounds/case-studies/travellers-friend.jpg) top right no-repeat; background-size: cover;}
+
+.cs-images {
+	img {display: block; float: left; width: 31%; margin-right: 1%; margin-left: 1%; border-bottom: 5px solid #1595cc; margin-bottom: 30px;}
+}

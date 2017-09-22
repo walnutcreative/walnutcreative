@@ -1,0 +1,19 @@
+header {width: 100%; height: 75px; padding: 20px 0; background-color: $white;}
+.logo {width: 61px; height: 70px; float: left; background: url(../img/header/logo.png) center no-repeat; display: block;}
+.header-right {width: 300px; float: right; margin-top: 25px;}
+.header-right p {font-family: $font-title; font-size: 24px; color: $white; text-align: right;}
+.page-header {width: 100%; height: 400px; background-size: cover!important;}
+
+
+.ph-about {background: url(../img/headers/about.jpg) bottom center no-repeat;}
+.ph-fabrication {background: url(../img/headers/fabrication.jpg) bottom center no-repeat;}
+.ph-counters {background: url(../img/headers/counters.jpg) bottom center no-repeat;}
+.ph-ventilation {background: url(../img/headers/ventilation.jpg) bottom center no-repeat;}
+.ph-services {background: url(../img/headers/services.jpg) bottom center no-repeat;}
+.ph-contact {background: url(../img/headers/contact.jpg) bottom center no-repeat;}
+.ph-case-studies {background: url(../img/headers/case-studies.jpg) bottom center no-repeat;}
+
+
+.ph-the-red-lion {background: url(../img/headers/case-studies/the-red-lion.jpg) bottom center no-repeat;}
+.ph-pizza-flue {background: url(../img/headers/case-studies/pizza-flue.jpg) bottom center no-repeat;}
+.ph-travellers-friend {background: url(../img/headers/case-studies/travellers-friend.jpg) bottom center no-repeat;}

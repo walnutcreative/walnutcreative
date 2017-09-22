@@ -1,0 +1,46 @@
+#mobile-menu {display: none!important;}
+.nav-container {width: 100%; background-color: #212121;}
+nav {width: 1240px; height: 50px; margin:auto; font-family: $font-title;}
+nav #desktop-menu > ul {height: 50px; position: relative; padding: 0; margin: 0; list-style: none;}
+nav #desktop-menu > ul > li {width: 16.6%; height: 50px; float: left; font-size: 14px; color: #fff; line-height: 20px; -webkit-font-smoothing: antialiased;}
+nav #desktop-menu > ul > li:hover {color: #fff;}
+nav #desktop-menu > ul > li > a {width: 100%; height: 20px; padding: 15px 0; margin: 0px; display: block; color: #fff; text-align: center; transition: background-color .25s ease-in-out; -moz-transition: background-color .25s ease-in-out; -webkit-transition: background-color .25s ease-in-out;}
+nav #desktop-menu > ul > li > a:hover {margin: 0px; display: block; color: #fff; border-right: none; background-color: #313131;}
+nav #desktop-menu ul a {display: block; color: #fff; text-decoration: none; height: auto; width: auto; cursor: pointer; position: relative;}
+nav #desktop-menu ul li:hover > a {color: #fff;}
+
+.side-menu-bar {width: 80px; height: 100%; background: url(../img/backgrounds/side-menu-bar.jpg) top left repeat-x #a6b1b7; position: fixed; left: 0; z-index: 1000; box-shadow: 3px 0px 4px -2px #0b265d;}
+.side-menu {
+	width: 33.3%; height: 100%; background-color: #0f2f6c; position: fixed; left: 80px; z-index: 1000; display: none; box-shadow: 3px 0px 2px -2px $black;
+	ul {
+		color: $white; padding: 0; margin: 0; font-family: $font-title;
+		li {
+			list-style: none; padding: 0; font-size: 16px; line-height: 20px; border-bottom: 2px solid #0b255b; cursor: pointer;
+			a {color: $white; text-decoration: none; padding: 20px 40px; width: 100%; display: block;}
+		}
+		li:hover {background-color: #1495cc;}
+	}
+}
+.side-menu-logo {width: 80px; height: 200px; background: url(../img/menu/logo.svg) center no-repeat #143373; background-size: 90%; display: block;}
+.menu-text {font-family: $font-title; font-size: 10px; text-transform: uppercase; color: #4f4f4f; text-align: center;}
+.top-menu-item {border-top: 2px solid #0b255b;}
+.side-bar-button {width: 80px; height: 60px; line-height: 80px; margin-bottom: 0; text-align: center; font-size: 40px; display: block; -moz-transition: -moz-transform ease 0.6s; -webkit-transition: -webkit-transform ease 0.6s; -o-transition: -o-transform ease 0.6s; -ms-transition: -ms-transform ease 0.6s; transition: transform ease 0.6s; cursor: pointer;}
+// .side-bar-button:hover {-moz-transform: rotate(360deg); -webkit-transform: rotate(360deg); -o-transform: rotate(360deg); -ms-transform: rotate(360deg); transform: rotate(360deg);}
+.side-bar-open {color: #4f4f4f;}
+.side-bar-close {color: #1495cc; display: none;}
+.side-bar-close:hover {color: #1495cc;}
+.side-bar-socials {
+	width: 80px; height: 100%; text-align: center; margin-top: 40px;
+	i {font-size: 25px; color: #7d8588; padding-bottom: 40px; transition: color 0.5s ease; cursor: pointer;}
+	i:hover {color: #1495cc;}
+	a {color: #7d8588;}
+}
+.menu-logo {
+	width: 100%; height: 140px; text-align: center; cursor: pointer; background-color: #0f2f6c;
+	img {width: 200px; margin: 20px auto; height: 100px; text-align: center; cursor: pointer; display: block;}
+}
+
+.side-dropdown {display: none;}
+.side-dropdown li a:hover {background-color: #06719f!important;}
+.side-dropdown-first {border-top: 2px solid #0b255b;}
+.side-dropdown-last {border-bottom: none!important;}

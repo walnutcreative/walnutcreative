@@ -1,0 +1,18 @@
+h1, h2, h3, h4, p {-webkit-font-smoothing: antialiased;}
+h1, h2, h3, h4 {margin-top: 0;}
+h1 {font-family: $font-title; color: $main-color; font-size: 36px; line-height: 50px; margin-bottom: 20px;}
+h2 {font-family: $font-title; color: $main-color; font-size: 30px; line-height: 44px; margin-bottom: 20px;}
+h3 {font-family: $font-title; color: $main-color; font-size: 24px; line-height: 38px; margin-bottom: 20px;}
+h4 {font-family: $font-title; color: $main-color; font-size: 30px; line-height: 35px; margin-bottom: 20px;}
+p {font-family: $font-body; color: $font-color; font-size: 16px; line-height: 22px; margin-top: 0; margin-bottom: 20px;}
+a {text-decoration: none;}
+p a {color: #4c7ab8; text-decoration: none;}
+.white {color: $white;}
+.black {color: $black;}
+.small {font-size: 12px; line-height: 24px;}
+.large {font-size: 30px; line-height: 34px;}
+.uppercase {text-transform: uppercase;}
+.align-center {text-align: center;}
+.align-right {text-align: right;}
+.align-left {text-align: left;}
+.justified {text-align: justify;}

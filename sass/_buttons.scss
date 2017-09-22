@@ -1,0 +1,23 @@
+.button {width: 180px; height: 40px; display: block; background-color: #1595cc; cursor: pointer; text-transform: uppercase; transition: background-color 0.5s ease;  font-family: $font-title; font-size: 14px; text-align: center; color: $white; line-height: 40px; -webkit-font-smoothing: antialiased;}
+.button:hover {background-color: #19598a;}
+
+.button-d {width: 180px; height: 40px; display: block; background-color: $main-color; cursor: pointer; text-transform: uppercase; transition: background-color 0.5s ease;  font-family: $font-title; font-size: 14px; text-align: center; color: $white; line-height: 40px; -webkit-font-smoothing: antialiased;}
+.button-d:hover {background-color: #19598a;}
+
+.button-full {width: 100%; height: 40px; display: block; background-color: #1595cc; cursor: pointer; text-transform: uppercase; transition: background-color 0.5s ease;  font-family: $font-title; font-size: 14px; text-align: center; color: $white; line-height: 40px; -webkit-font-smoothing: antialiased;}
+.button-full:hover {background-color: #19598a;}
+
+
+.button-line {width: 180px; height: 40px; display: block; background-color: transparent; border: solid 4px #fff; cursor: pointer; text-transform: uppercase; transition: background-color 0.5s ease;  font-family: $font-title; font-size: 14px; text-align: center; color: $white; line-height: 40px; -webkit-font-smoothing: antialiased;}
+.button-line:hover {background-color: #19598a;}
+
+
+.diamond {
+	position: absolute; bottom: -60px; left: 0; right: 0; margin: auto; padding-top: 30px; transform: rotate(45deg); width: 110px; height: 110px; -webkit-transition: -webkit-transform .8s ease-in-out; -ms-transition: -ms-transform .8s ease-in-out; transition: transform .8s ease-in-out;
+	span {transform: rotate(-45deg); display: block;}
+}
+.diamond:hover {}
+
+.b-service {float: left; width: 140px; font-size: 11px!important;}
+.b-grey {background-color: $font-color; margin-left: 20px;}
+.b-grey:hover {background-color: $main-color;}
